@@ -1,0 +1,5 @@
++ dirname bin/kafka-topics.sh
++ exec bin/kafka-run-class.sh kafka.admin.TopicCommand --create --topic electricity --zookeeper localhostTopic water is marked for deletion.
+Note: ThError while executing topic command : Replication factor: 3 larger than available brokers: 0.
+[2018-12-09 02:21:48,126] ERROR org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 3 larger than available brokers: 0.
+ (kafka.admin.TopicCommand$)
